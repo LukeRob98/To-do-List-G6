@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To do list!</title>
     <link rel="stylesheet" href="./style.css">
 </head>
     
     
-<body>
-  <h1>My page</h1>
+<body> 
+  <h1>Our To-Do List</h1>
+  <ul id="taskList">
+    <input type="text" id="textInput" placeholder="new task...">
+    <button type='button' id='addTaskBtn'>New Task</button><br>
+    <li>Create a functioning html</li>
+    <li>Create the proper code for js</li>
+    <li>Style the html with css</html></li>
+  </ul>  
+  <form id="taskForm">
+    <input type="checkbox" id="check1" name="check1" value="Create a functioning html">
+    <label for="check1">Create a functioning html</label><br>
+    <input type="checkbox" id="check2" name="check2" value="Create the proper code for js">
+    <label for="check2">Create the proper code for js</label><br>
+    <input type="checkbox" id="check3" name="check3" value="Style the html with css">
+    <label for="check3">Style the html with css</label><br>
+    <input type="submit" value="Submit">
+  </form>
   <script src="./index.js"></script>
+  <img src="https://media1.tenor.com/m/OqgU70GZx7gAAAAC/courage-the-cowardly-dog-computer.gif">
 </body>
 </html>
