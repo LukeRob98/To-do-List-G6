@@ -13,5 +13,3 @@ addTaskButton.addEventListener('click', function () {
   	alert('Please enter task');
   }
 });
-
-

@@ -1,6 +1,6 @@
 h1 {
     color: purple;
-    font-family: verdana;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 300%;
   }
 body{background-color: powderblue; 
@@ -8,4 +8,35 @@ body{background-color: powderblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 150%
     ;}
-    
+button {
+  background-color: chartreuse;
+  padding: 10px;
+  cursor: pointer;
+  font-size: larger;
+  }
+ul {
+  list-style-type: none;
+  padding: 0;
+  }
+li {
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+img {
+    position: relative;
+    top: 0px;
+    left: 250px;
+}
+p.mediumText {
+  color: darkgreen;
+  font-size: 1.5em;
+  font-weight: bold;
+}
